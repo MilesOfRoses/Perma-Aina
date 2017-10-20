@@ -1,0 +1,13 @@
+# Site settings
+title: Perma Aina Farm Online Store
+description: Perma Aina Farm Online Store offers natural products shipped right to your door!
+baseurl: "/perma-aina-store/" # the subpath of your site, e.g. /blog/
+url: "http://permaaina.com" # the base hostname & protocol for your site
+twitter_username: PermaAina
+api_key: Y2YwZDYyYzAtZTg4ZS00OGFkLWIxYzAtMjdlYjdlM2EyOGMwNjM2MTk5OTUyOTIwMDEzODc1
+
+# Build settings
+markdown: kramdown
+collections:
+  products:
+    output: true
