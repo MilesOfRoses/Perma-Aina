@@ -1,3 +1,7 @@
-<p>lalala</p>
-<h1>furrrst</h1><p>lalala</p>
-<h1>furrrst</h1>
+---
+layout: products
+title: Store
+---
+{% for product in site.products %}
+  {% include product.html %}
+{% endfor %}
